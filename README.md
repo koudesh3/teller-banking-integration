@@ -36,7 +36,7 @@ poetry run python scripts/sync.py
 
 ## 📊 What You Get
 
-- **922+ transactions** automatically synced from all accounts
+- **All transactions** automatically synced from all accounts
 - **MySQL database** with clean, normalized financial data  
 - **Incremental updates** - only pulls new transactions
 - **Complete transaction history** via automatic pagination
