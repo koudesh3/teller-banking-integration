@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: teller_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: teller123
+      MYSQL_DATABASE: teller_db
+      MYSQL_USER: teller_user
+      MYSQL_PASSWORD: teller_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - teller_mysql_data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+
+volumes:
+  teller_mysql_data:
