@@ -1,4 +1,4 @@
-# Teller Banking Integration
+# Transaction Puller
 
 Pull all your bank transactions into MySQL for analysis and budgeting.
 
